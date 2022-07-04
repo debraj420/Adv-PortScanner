@@ -3,13 +3,13 @@ Advanced PortScanner is python based port scanner It can be used with a variety 
 
 # Installation
 
-sudo git clone https://github.com/HarshitJosh1/Portmapper.git
+sudo git clone https://github.com/debraj420/Adv-PortScanner.git
 
-cd Portmapper/
+cd Adv-PortScanner/
 
-sudo chmod +x setup.sh
+sudo chmod +x advPortscaner.py 
 
-sudo bash setup.sh
+sudo ./advPortscaner.py 
 # Mandatory Argument
 
 -ip or --host - Target IP To Scan
@@ -19,6 +19,6 @@ sudo bash setup.sh
 
 -t or --threads - threads number
 
--s or --start_port - Port Number to start scan From
+-s or --start - Port Number to start scan From
 
--e or --end_port - Port Number To end scan At
+-e or --end - Port Number To end scan At
